@@ -41,29 +41,29 @@
       "BETTER_AUTH_SECRET": {
         "@secret": {
           "version": "v1",
-          "ciphertext": "UZ3Ol/vLF7gtBTtlW7vrajRKJn1sEEc1VDwEsh5I0s4=",
-          "iv": "hIh6T+7E2sZJmj5z",
-          "salt": "+XqjopS0ZLggjsBc4rdTJQ==",
-          "tag": "hxo9385ydk6eacefKxQTRA=="
+          "ciphertext": "YjhWUfx8J6NHs7VbL77/z7gwPJQkFc7ymJBxa/wp6Ko=",
+          "iv": "9N35j0XTDTzvcdgj",
+          "salt": "O0Ba3Q4jh0c/jl4jOfarmQ==",
+          "tag": "ueRVT73LP5Qq7jeZAtumLg=="
         }
       },
       "BETTER_AUTH_URL": "http://localhost:4000",
       "ADMIN_USER_ID": {
         "@secret": {
           "version": "v1",
-          "ciphertext": "+6wtSaq2Inklw9HpFZasmQ==",
-          "iv": "FSYtg6aGv/YMoeDH",
-          "salt": "vrgtAnT4aY4I77zddVthoQ==",
-          "tag": "7TG395WZD0X7fSP5AayaEg=="
+          "ciphertext": "ZnV9r0EWanX9+UCZbzTAKg==",
+          "iv": "81rIGI95pbpO9J9c",
+          "salt": "b5+W8zvNhPGzl8zltNWnXg==",
+          "tag": "cp79B0v6ztLeV2DM+tMANg=="
         }
       },
       "RESEND_API_KEY": {
         "@secret": {
           "version": "v1",
-          "ciphertext": "Vi85MlM9k0SRcu9vYVg2jOEFY2YiPONADuYqCP9p3SrVmDIE",
-          "iv": "yn27/89pD7V7VVZ6",
-          "salt": "Fr6tKa7+LUGP2BjwCDST3Q==",
-          "tag": "ivAvA4FEE7MwMRRc7YtBcg=="
+          "ciphertext": "KPtRPh51IA1HKhkGfoJ3HQlx3iczOWLajWkD4fjq984I0i1q",
+          "iv": "+tZy7F02/aaekzKH",
+          "salt": "AXj16884cvs2VQ3QkPp2NA==",
+          "tag": "5dQ4edKnHM1LY+keywSb5g=="
         }
       }
     },
@@ -80,7 +80,7 @@
     ],
     "format": "esm",
     "createdAt": 1773394022580,
-    "updatedAt": 1773425514398,
+    "updatedAt": 1773432066684,
     "url": "http://localhost:4000/",
     "routes": []
   },
@@ -115,29 +115,29 @@
       "BETTER_AUTH_SECRET": {
         "@secret": {
           "version": "v1",
-          "ciphertext": "RVjRSPEn6NX4ZJy6lworH83/237a5imRTYdB+YFwzK4=",
-          "iv": "DgV3aPWIWxs/W3CO",
-          "salt": "RgOsPGKKiTT8TJZiLrzp9w==",
-          "tag": "uoZ5JwAAtA+gEqTPlzm8hw=="
+          "ciphertext": "n9kPkqS2w2hWsTB4E8aeVESgInU6GcDUzN3Ql5icZGQ=",
+          "iv": "FbvY3QbLjPEZ7c/S",
+          "salt": "yNL8ajfC3rwoux0OZZ3Rcw==",
+          "tag": "8NF6fTm5Hxx9akpRJWeAXw=="
         }
       },
       "BETTER_AUTH_URL": "http://localhost:4000",
       "ADMIN_USER_ID": {
         "@secret": {
           "version": "v1",
-          "ciphertext": "m0VlynaWlAPrfnP9b2nRjg==",
-          "iv": "CvWs25v10iZqFLAH",
-          "salt": "WUsMC7NI5pXmzdRxlwfKPg==",
-          "tag": "oaDMMM+1SdL3JRYuOcpiAw=="
+          "ciphertext": "bd9HqlxnkZvIxeZx3W4zXw==",
+          "iv": "iK7IZgblUY8MbPjT",
+          "salt": "4HZziQ6rBypeNkxlT1YH3A==",
+          "tag": "UlseHD52Ttf0wysQykVTrQ=="
         }
       },
       "RESEND_API_KEY": {
         "@secret": {
           "version": "v1",
-          "ciphertext": "UKOD+eB3rH5fPrvs/z+3//6Viw6+3UBsO2S3v9LToFM6dk1s",
-          "iv": "8aYF5x0W2APev6xT",
-          "salt": "I0wgcMfHWquCiToPuPBceg==",
-          "tag": "EGEYqAXH+uH+smFZpVb2cQ=="
+          "ciphertext": "JoJfimm/qvFMadjgbVDMLKm5A2EdfMRgiM133ofe/kNBbK1b",
+          "iv": "+A5ZquU/g6CGRtrh",
+          "salt": "qQld71bcN0iEEa6NWtEWxg==",
+          "tag": "1ONLPdx74I5ex79nIyBsVQ=="
         }
       }
     },
