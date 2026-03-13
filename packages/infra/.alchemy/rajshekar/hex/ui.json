@@ -1,0 +1,64 @@
+{
+  "kind": "cloudflare::Worker",
+  "id": "ui",
+  "fqn": "rajshekar/hex/ui",
+  "seq": 2,
+  "data": {},
+  "status": "updated",
+  "output": {
+    "Symbol(alchemy::ResourceKind)": "cloudflare::Worker",
+    "Symbol(alchemy::ResourceID)": "ui",
+    "Symbol(alchemy::ResourceFQN)": "rajshekar/hex/ui",
+    "Symbol(alchemy::ResourceScope)": {
+      "@scope": null
+    },
+    "Symbol(alchemy::ResourceSeq)": 2,
+    "cwd": "../../apps/ui",
+    "entrypoint": "dist/server/entry.mjs",
+    "domains": [],
+    "bindings": {
+      "PUBLIC_SERVER_URL": "http://localhost:4000"
+    },
+    "noBundle": true,
+    "name": "rajshekar-ui-hex",
+    "compatibilityFlags": [],
+    "compatibilityDate": "2026-03-10",
+    "assets": {
+      "html_handling": "auto-trailing-slash",
+      "not_found_handling": "none",
+      "run_worker_first": false
+    },
+    "dev": {
+      "hasRemote": false
+    },
+    "type": "service",
+    "id": "ui",
+    "format": "esm",
+    "createdAt": 1773415317940,
+    "updatedAt": 1773425525849,
+    "url": "http://localhost:4321/",
+    "routes": []
+  },
+  "props": {
+    "cwd": "../../apps/ui",
+    "entrypoint": "dist/server/entry.mjs",
+    "domains": [
+      "rajshekar.dev"
+    ],
+    "bindings": {
+      "PUBLIC_SERVER_URL": "http://localhost:4000"
+    },
+    "noBundle": true,
+    "name": "rajshekar-ui-hex",
+    "compatibilityFlags": [],
+    "compatibilityDate": "2026-03-10",
+    "assets": {
+      "html_handling": "auto-trailing-slash",
+      "not_found_handling": "none",
+      "run_worker_first": false
+    },
+    "dev": {
+      "url": "http://localhost:4321/"
+    }
+  }
+}

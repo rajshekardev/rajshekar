@@ -1,0 +1,148 @@
+{
+  "kind": "cloudflare::Worker",
+  "id": "server",
+  "fqn": "rajshekar/hex/server",
+  "seq": 1,
+  "data": {},
+  "status": "updated",
+  "output": {
+    "Symbol(alchemy::ResourceKind)": "cloudflare::Worker",
+    "Symbol(alchemy::ResourceID)": "server",
+    "Symbol(alchemy::ResourceFQN)": "rajshekar/hex/server",
+    "Symbol(alchemy::ResourceScope)": {
+      "@scope": null
+    },
+    "Symbol(alchemy::ResourceSeq)": 1,
+    "cwd": "../../apps/server",
+    "entrypoint": "./src/index.ts",
+    "compatibility": "node",
+    "domains": [],
+    "bindings": {
+      "DB": {
+        "Symbol(alchemy::ResourceKind)": "cloudflare::D1Database",
+        "Symbol(alchemy::ResourceID)": "database",
+        "Symbol(alchemy::ResourceFQN)": "rajshekar/hex/database",
+        "Symbol(alchemy::ResourceScope)": {
+          "@scope": null
+        },
+        "Symbol(alchemy::ResourceSeq)": 0,
+        "type": "d1",
+        "id": "",
+        "name": "rajshekar-database-hex",
+        "migrationsDir": "../db/src/migrations",
+        "migrationsTable": "d1_migrations",
+        "dev": {
+          "id": "rajshekar-database-hex",
+          "remote": false
+        },
+        "jurisdiction": "default"
+      },
+      "CORS_ORIGIN": "http://localhost:4321",
+      "BETTER_AUTH_SECRET": {
+        "@secret": {
+          "version": "v1",
+          "ciphertext": "UZ3Ol/vLF7gtBTtlW7vrajRKJn1sEEc1VDwEsh5I0s4=",
+          "iv": "hIh6T+7E2sZJmj5z",
+          "salt": "+XqjopS0ZLggjsBc4rdTJQ==",
+          "tag": "hxo9385ydk6eacefKxQTRA=="
+        }
+      },
+      "BETTER_AUTH_URL": "http://localhost:4000",
+      "ADMIN_USER_ID": {
+        "@secret": {
+          "version": "v1",
+          "ciphertext": "+6wtSaq2Inklw9HpFZasmQ==",
+          "iv": "FSYtg6aGv/YMoeDH",
+          "salt": "vrgtAnT4aY4I77zddVthoQ==",
+          "tag": "7TG395WZD0X7fSP5AayaEg=="
+        }
+      },
+      "RESEND_API_KEY": {
+        "@secret": {
+          "version": "v1",
+          "ciphertext": "Vi85MlM9k0SRcu9vYVg2jOEFY2YiPONADuYqCP9p3SrVmDIE",
+          "iv": "yn27/89pD7V7VVZ6",
+          "salt": "Fr6tKa7+LUGP2BjwCDST3Q==",
+          "tag": "ivAvA4FEE7MwMRRc7YtBcg=="
+        }
+      }
+    },
+    "dev": {
+      "hasRemote": false
+    },
+    "type": "service",
+    "id": "server",
+    "name": "rajshekar-server-hex",
+    "compatibilityDate": "2026-03-10",
+    "compatibilityFlags": [
+      "nodejs_compat",
+      "nodejs_compat_populate_process_env"
+    ],
+    "format": "esm",
+    "createdAt": 1773394022580,
+    "updatedAt": 1773425514398,
+    "url": "http://localhost:4000/",
+    "routes": []
+  },
+  "props": {
+    "cwd": "../../apps/server",
+    "entrypoint": "./src/index.ts",
+    "compatibility": "node",
+    "domains": [
+      "api.rajshekar.dev"
+    ],
+    "bindings": {
+      "DB": {
+        "Symbol(alchemy::ResourceKind)": "cloudflare::D1Database",
+        "Symbol(alchemy::ResourceID)": "database",
+        "Symbol(alchemy::ResourceFQN)": "rajshekar/hex/database",
+        "Symbol(alchemy::ResourceScope)": {
+          "@scope": null
+        },
+        "Symbol(alchemy::ResourceSeq)": 0,
+        "type": "d1",
+        "id": "",
+        "name": "rajshekar-database-hex",
+        "migrationsDir": "../db/src/migrations",
+        "migrationsTable": "d1_migrations",
+        "dev": {
+          "id": "rajshekar-database-hex",
+          "remote": false
+        },
+        "jurisdiction": "default"
+      },
+      "CORS_ORIGIN": "http://localhost:4321",
+      "BETTER_AUTH_SECRET": {
+        "@secret": {
+          "version": "v1",
+          "ciphertext": "RVjRSPEn6NX4ZJy6lworH83/237a5imRTYdB+YFwzK4=",
+          "iv": "DgV3aPWIWxs/W3CO",
+          "salt": "RgOsPGKKiTT8TJZiLrzp9w==",
+          "tag": "uoZ5JwAAtA+gEqTPlzm8hw=="
+        }
+      },
+      "BETTER_AUTH_URL": "http://localhost:4000",
+      "ADMIN_USER_ID": {
+        "@secret": {
+          "version": "v1",
+          "ciphertext": "m0VlynaWlAPrfnP9b2nRjg==",
+          "iv": "CvWs25v10iZqFLAH",
+          "salt": "WUsMC7NI5pXmzdRxlwfKPg==",
+          "tag": "oaDMMM+1SdL3JRYuOcpiAw=="
+        }
+      },
+      "RESEND_API_KEY": {
+        "@secret": {
+          "version": "v1",
+          "ciphertext": "UKOD+eB3rH5fPrvs/z+3//6Viw6+3UBsO2S3v9LToFM6dk1s",
+          "iv": "8aYF5x0W2APev6xT",
+          "salt": "I0wgcMfHWquCiToPuPBceg==",
+          "tag": "EGEYqAXH+uH+smFZpVb2cQ=="
+        }
+      }
+    },
+    "dev": {
+      "port": 4000
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "kind": "cloudflare::D1Database",
+  "id": "database",
+  "fqn": "rajshekar/hex/database",
+  "seq": 0,
+  "data": {},
+  "status": "created",
+  "output": {
+    "Symbol(alchemy::ResourceKind)": "cloudflare::D1Database",
+    "Symbol(alchemy::ResourceID)": "database",
+    "Symbol(alchemy::ResourceFQN)": "rajshekar/hex/database",
+    "Symbol(alchemy::ResourceScope)": {
+      "@scope": null
+    },
+    "Symbol(alchemy::ResourceSeq)": 0,
+    "type": "d1",
+    "id": "",
+    "name": "rajshekar-database-hex",
+    "migrationsDir": "../db/src/migrations",
+    "migrationsTable": "d1_migrations",
+    "dev": {
+      "id": "rajshekar-database-hex",
+      "remote": false
+    },
+    "jurisdiction": "default"
+  },
+  "props": {
+    "migrationsDir": "../db/src/migrations",
+    "migrationsFiles": [
+      {
+        "id": "0000_slimy_plazm.sql",
+        "hash": "fc98cd799a508c77946957c38faadb1ff43a84ca2dac4c8866bf677ec3fffb07"
+      }
+    ],
+    "importFiles": [],
+    "dev": {
+      "force": true
+    }
+  }
+}

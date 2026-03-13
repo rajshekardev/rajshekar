@@ -1,0 +1,24 @@
+{
+	"name": "@rajshekar/auth",
+	"type": "module",
+	"exports": {
+		".": {
+			"default": "./src/index.ts"
+		},
+		"./*": {
+			"default": "./src/*.ts"
+		}
+	},
+	"scripts": {},
+	"dependencies": {
+		"@better-auth/expo": "catalog:",
+		"@rajshekar/db": "workspace:*",
+		"@rajshekar/env": "workspace:*",
+		"better-auth": "catalog:",
+		"zod": "catalog:"
+	},
+	"devDependencies": {
+		"@rajshekar/config": "workspace:*",
+		"typescript": "^5"
+	}
+}

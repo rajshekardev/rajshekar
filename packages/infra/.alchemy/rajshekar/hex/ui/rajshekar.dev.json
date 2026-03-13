@@ -1,0 +1,32 @@
+{
+  "kind": "cloudflare::CustomDomain",
+  "id": "rajshekar.dev",
+  "fqn": "rajshekar/hex/ui/rajshekar.dev",
+  "seq": 0,
+  "data": {},
+  "status": "created",
+  "output": {
+    "Symbol(alchemy::ResourceKind)": "cloudflare::CustomDomain",
+    "Symbol(alchemy::ResourceID)": "rajshekar.dev",
+    "Symbol(alchemy::ResourceFQN)": "rajshekar/hex/ui/rajshekar.dev",
+    "Symbol(alchemy::ResourceScope)": {
+      "@scope": null
+    },
+    "Symbol(alchemy::ResourceSeq)": 0,
+    "name": "rajshekar.dev",
+    "zoneId": "noop-zone",
+    "adopt": false,
+    "workerName": "rajshekar-ui-hex",
+    "dev": true,
+    "id": "noop-domain",
+    "environment": "production",
+    "createdAt": 1773415317937,
+    "updatedAt": 1773415317937
+  },
+  "props": {
+    "name": "rajshekar.dev",
+    "adopt": false,
+    "workerName": "rajshekar-ui-hex",
+    "dev": true
+  }
+}
